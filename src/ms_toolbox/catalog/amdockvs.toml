@@ -1,0 +1,14 @@
+app_id = "amdockvs"
+name = "AMDockVS"
+description = "Virtual screening, molecular docking and analysis with MolSuite."
+distribution = "AMDockVS"
+version = "0.8.1"
+package = "amdockvs"
+scope = "docking"
+repository = "https://github.com/AMDockVS/AMDockVS"
+color = "#4e95ff"
+initial = "A"
+configurations = [
+    "amdockvs.core.configuration:create_amdock_configuration",
+    "amdockvs.core.configuration:create_contact_map_configuration",
+]
