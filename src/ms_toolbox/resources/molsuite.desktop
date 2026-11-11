@@ -2,7 +2,7 @@
 Type=Application
 Name=MolSuite Toolbox
 Comment=Applications, projects and settings for MolSuite
-Exec=ms-toolbox
-Icon=ms-toolbox
+Exec=molsuite
+Icon=molsuite
 Terminal=false
 Categories=Science;Education;

@@ -6,26 +6,27 @@ AMDockVS does not need Toolbox installed to create or open its projects.
 
 ## Install and run
 
-Python 3.12 or newer is required. From this repository:
+Python 3.12 or newer is required:
 
 ```bash
-python -m pip install .
-ms-toolbox
+python -m pip install molsuite
+molsuite
 ```
 
-The module entry point works too: `python -m ms_toolbox`.
+From a checkout, `python -m pip install .` instead. The package installs as `molsuite`
+and imports as `ms_toolbox`; the module entry point works too: `python -m ms_toolbox`.
 This installs a graphical launcher in the selected Python environment, rather than
 a standalone binary with its own Python runtime.
 
 On Linux, add a shortcut to the desktop's application menu:
 
 ```bash
-ms-toolbox --install-desktop-entry
+molsuite --install-desktop-entry
 ```
 
 The shortcut points to that environment's Python, so it works even when the
 environment is not on the desktop's `PATH`. Windows and macOS use the installed
-`ms-toolbox` launcher; native application bundles are not provided yet.
+`molsuite` launcher; native application bundles are not provided yet.
 
 ## Applications and installations
 
