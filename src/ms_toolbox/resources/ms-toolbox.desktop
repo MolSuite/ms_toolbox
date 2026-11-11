@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=MolSuite Toolbox
+Comment=Applications, projects and settings for MolSuite
+Exec=ms-toolbox
+Icon=ms-toolbox
+Terminal=false
+Categories=Science;Education;
