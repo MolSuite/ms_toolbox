@@ -120,8 +120,7 @@ neither claims that an older app can open a newer project nor downgrades project
 The catalog's approved app version is an installation choice, not the recorded creator
 version of a project. A full format/migration contract remains shared work before v1.
 
-The shared UI and runtime dependencies are bounded to the tested pre-v1 minor versions.
-Widening those bounds requires running the tests against the new releases.
+The shared UI and runtime dependencies set minimum versions only, without upper bounds.
 
 ## Development
 
